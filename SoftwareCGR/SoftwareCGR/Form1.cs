@@ -18,6 +18,11 @@ namespace SoftwareCGR
         }
 
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int y = 100;
+
+        }
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             int x = 0;
@@ -29,6 +34,7 @@ namespace SoftwareCGR
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("sdfsdfsdfsd");
+
 
         }
     }
