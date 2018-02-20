@@ -17,9 +17,25 @@ namespace SoftwareCGR
             InitializeComponent();
         }
 
+
         private void button2_Click(object sender, EventArgs e)
         {
             int y = 100;
+
+        }
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            int x = 0;
+            if (x <= 10)
+            {
+                MessageBox.Show("Hola");
+            }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("sdfsdfsdfsd");
+
+
         }
     }
 }
